@@ -1,12 +1,19 @@
 @import '../../../../styling/theme';
 @import '../../../../styling/fonts';
 
+:host {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+img {
+  width: 60px;
+  margin: 10px;
+}
+
 h1 {
   font-size: $h3-fontsize;
   color: $color1;
   text-align: center;
-
-  > img {
-    width: 60px;
-  }
 }

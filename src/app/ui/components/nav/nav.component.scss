@@ -1,14 +1,20 @@
 @import '../../../../styling/theme';
 @import '../../../../styling/fonts';
 
-a {
+.nav-pills .nav-link {
   color: $dark-color;
   transition: all .5s;
   &:hover, &.active {
     color: $color3;
+    background-color: transparent;
   }
 }
 
 .nav {
   justify-content: center;
+  width: 80%;
+  margin: auto;
+  border-top: solid 1px $color1;
 }
+
+
