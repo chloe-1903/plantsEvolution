@@ -3,6 +3,8 @@
 
 .nav-pills .nav-link {
   color: $dark-color;
+  font-size: $h3-fontsize;
+  font-variant-caps: all-small-caps;
   transition: all .5s;
   &:hover, &.active {
     color: $color3;
