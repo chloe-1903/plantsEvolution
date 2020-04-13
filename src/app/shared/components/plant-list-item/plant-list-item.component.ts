@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Plant} from '../../models/plant.model';
 
 @Component({
   selector: 'app-plant-list-item',
@@ -7,10 +8,11 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class PlantListItemComponent implements OnInit {
 
-  @Input() name: string;
-  @Input() imagePath: string;
+  @Input() plant: Plant;
 
-  constructor() { }
+  constructor() {
+    console.log(this.plant);
+  }
 
   ngOnInit() {
   }
