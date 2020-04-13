@@ -1,1 +1,3 @@
-<p>indoor-list works!</p>
+<div class="plant-list">
+    <app-plant-list-item *ngFor="let plant of itemList" [name]="plant.name" [imagePath]="plant.imagePath"></app-plant-list-item>
+</div>

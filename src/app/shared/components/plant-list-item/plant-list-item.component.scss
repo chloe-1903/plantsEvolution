@@ -1,0 +1,15 @@
+@import '../../../../styling/theme';
+@import '../../../../styling/fonts';
+
+.plant-item-wrapper {
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  border: solid 1px $dark-color;
+  margin: 10px;
+  padding: 10px;
+
+  img {
+    width: 150px;
+  }
+}
