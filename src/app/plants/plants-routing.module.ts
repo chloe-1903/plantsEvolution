@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {PlantsComponent} from './pages/plants/plants.component';
+import {IndoorListComponent} from './pages/indoor-list/indoor-list.component';
+import {OutdoorListComponent} from './pages/outdoor-list/outdoor-list.component';
 
 const appRoutes: Routes = [
-  { path: '',
-    component: PlantsComponent
+  { path: 'indoor',
+    component: IndoorListComponent
+  },
+  { path: 'outdoor',
+    component: OutdoorListComponent
   }
 ];
 
